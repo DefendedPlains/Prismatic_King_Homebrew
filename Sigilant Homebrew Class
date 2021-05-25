@@ -4,7 +4,7 @@
       {
         "json": "Prismatic_King_Homebrew",
         "abbreviation": "PKH",
-        "full": "Prismatic King Homebrew - Sigilant",
+        "full": "The Sigilant",
         "authors": [
           "rsquared"
         ],
@@ -14,9 +14,7 @@
         "version": "2.2",
         "url": "https://www.gmbinder.com/share/-Lf0BAsRBGEPXcyycTXN"
       }
-    ],
-    "dateAdded": 1549715846,
-    "dateLastModified": 1549715846
+    ]
   },
   "class": [
     {
@@ -39,24 +37,24 @@
         "weapons": [
           "simple",
           "martial"
-        ]
+        ],
+	"skills": [
+        	{
+          		"choose": {
+           			"from": [
+              				"athletics",
+              				"acrobatics",
+              				"arcana",
+              				"history",
+              				"insight",
+              				"investigation",
+              				"persuasion"
+            			],
+            			"count": 2
+          		}
+        	}
+	]
       },
-      "skills": [
-        {
-          "choose": {
-            "from": [
-              "athletics",
-              "acrobatics",
-              "arcana",
-              "history",
-              "insight",
-              "investigation",
-              "persuasion"
-            ],
-            "count": 2
-          }
-        }
-      ],
       "startingEquipment": {
         "additionalFromBackground": true,
         "default": [
@@ -309,7 +307,7 @@
       ],
       "classFeatures": [
         "Runes|Sigilant|Prismatic_King_Homebrew|1",
-        "Bladecasting|Sigilant|Prismatic_King_Homebrew|1",
+        "Blade Casting|Sigilant|Prismatic_King_Homebrew|1",
         "Student of Writ|Sigilant|Prismatic_King_Homebrew|1",
         "Edge and Aegis|Sigilant|Prismatic_King_Homebrew|2",
         "Evocant Sigil|Sigilant|Prismatic_King_Homebrew|2",
@@ -319,7 +317,6 @@
           "gainSubclassFeature": true
         },
         "Ability Score Improvement|Sigilant|Prismatic_King_Homebrew|4",
-        "Proficiency Versatility|Sigilant|Prismatic_King_Homebrew|4|UAClassFeatureVariants",
         "Extra Attack|Sigilant|Prismatic_King_Homebrew|5",
         "Abjurant Sigil|Sigilant|Prismatic_King_Homebrew|6",
         "Journeyman Ritualist|Sigilant|Prismatic_King_Homebrew|6",
@@ -328,21 +325,17 @@
           "gainSubclassFeature": true
         },
         "Ability Score Improvement|Sigilant|Prismatic_King_Homebrew|8",
-        "Proficiency Versatility|Sigilant|Prismatic_King_Homebrew|8|UAClassFeatureVariants",
         "Explosive Runes|Sigilant|Prismatic_King_Homebrew|10",
         "Elemental Escalation|Sigilant|Prismatic_King_Homebrew|11",
         "Ability Score Improvement|Sigilant|Prismatic_King_Homebrew|12",
-        "Proficiency Versatility|Sigilant|Prismatic_King_Homebrew|12|UAClassFeatureVariants",
-        "Mixed Martial Arts|Sigilant|Prismatic_King_Homebrew|14",
+        "Mixed Magical Arts|Sigilant|Prismatic_King_Homebrew|14",
         {
           "classFeature": "Order feature|Sigilant|Prismatic_King_Homebrew|15",
           "gainSubclassFeature": true
         },
         "Ability Score Improvement|Sigilant|Prismatic_King_Homebrew|16",
-        "Proficiency Versatility|Sigilant|Prismatic_King_Homebrew|16|UAClassFeatureVariants",
         "Master of Glyphs|Sigilant|Prismatic_King_Homebrew|18",
         "Ability Score Improvement|Sigilant|Prismatic_King_Homebrew|19",
-        "Proficiency Versatility|Sigilant|Prismatic_King_Homebrew|19|UAClassFeatureVariants",
         "Spellblade|Sigilant|Prismatic_King_Homebrew|20"
       ],
       "subclassTitle": "Ordo Arcana",
@@ -363,7 +356,7 @@
           },
           "subclassFeatures": [
             "Arcanamach|Sigilant|Prismatic_King_Homebrew|Arcanamach|Prismatic_King_Homebrew|3",
-            "Extended Spellstrength|Sigilant|Prismatic_King_Homebrew|Arcanamach|Prismatic_King_Homebrew|7",
+            "Extended Spell Strength|Sigilant|Prismatic_King_Homebrew|Arcanamach|Prismatic_King_Homebrew|7",
             "Tenacious Spells|Sigilant|Prismatic_King_Homebrew|Arcanamach|Prismatic_King_Homebrew|15"
           ],
           "source": "Prismatic_King_Homebrew",
@@ -392,9 +385,9 @@
           "shortName": "Warblade"
         },
         {
-          "name": "Shadow Dancer",
+          "name": "Shadowdancer",
           "subSubclassSpells": {
-            "Shadow Dancer": [
+            "Shadowdancer": [
               "disguise self",
               {
                 "name": "shadow blade",
@@ -412,12 +405,12 @@
             ]
           },
           "subclassFeatures": [
-            "Shadow Dancer|Sigilant|Prismatic_King_Homebrew|Shadow Dancer|Prismatic_King_Homebrew|3",
-            "Umbral Evasion|Sigilant|Prismatic_King_Homebrew|Shadow Dancer|Prismatic_King_Homebrew|7",
-            "Wreath of Shadows|Sigilant|Prismatic_King_Homebrew|Shadow Dancer|Prismatic_King_Homebrew|15"
+            "Shadowdancer|Sigilant|Prismatic_King_Homebrew|Shadowdancer|Prismatic_King_Homebrew|3",
+            "Umbral Evasion|Sigilant|Prismatic_King_Homebrew|Shadowdancer|Prismatic_King_Homebrew|7",
+            "Wreath of Shadows|Sigilant|Prismatic_King_Homebrew|Shadowdancer|Prismatic_King_Homebrew|15"
           ],
           "source": "Prismatic_King_Homebrew",
-          "shortName": "Shadow Dancer"
+          "shortName": "Shadowdancer"
         },
         {
           "name": "Factotum",
@@ -467,9 +460,9 @@
           "entries": [
             "When you hit a creature with your Bladecasting weapon, you can expend a rune to inflict an additional effect determined by the active Bladecasting type:",
             "{@b {@i Acid: Corrosion.} } The target must succeed on a Constitution saving throw against your spellcasting DC or have its AC be reduced by 1 as its armor is corroded and weakened. A creature cannot have its AC reduced in this way more than once, and the penalty is removed if the creature recieves magical hgealing (if it has natural armor), or if the creature finishes a short or long rest.",
-            "{@b {@i Cold: Shatter.} } A shower of razor sharp ice blasts from your weapon. Each creature in a 15 foot cone in front of you must make a Constitution saving throw aginst your Spell Save DC. On a failure they take 1d8 cold damage, or half as much on a success. The target of the original attack automatically fails this saving throw.",
-            "{@b {@i Fire: Ignition.} } The target takes an additional 1d8 fire damage and must succeed on a Dexterity saving throw against your Spell Save DC or begin to burn. Unless the creature uses an action to extinguish the flames, it takes bonus fire damage equal to your spell casting ability modifier at the end of its turns.",
-            "{@b {@i Lightning: Shock.} } The target takes an extra 1d8 lightning damage and must succeed on a Dexterity saving throw against your Spell Save DC or suffer disadvantage on its next attack roll if that attack is made before the end of the creature's next turn.",
+            "{@b {@i Cold: Shatter.} } A shower of razor sharp ice blasts from your weapon. Each creature in a 15 foot cone in front of you must make a Constitution saving throw aginst your Spell Save DC. On a failure they take {@dice 1d8} cold damage, or half as much on a success. The target of the original attack automatically fails this saving throw.",
+            "{@b {@i Fire: Ignition.} } The target takes an additional {@dice 1d8} fire damage and must succeed on a Dexterity saving throw against your Spell Save DC or begin to burn. Unless the creature uses an action to extinguish the flames, it takes bonus fire damage equal to your spell casting ability modifier at the end of its turns.",
+            "{@b {@i Lightning: Shock.} } The target takes an extra {@dice 1d8} lightning damage and must succeed on a Dexterity saving throw against your Spell Save DC or suffer disadvantage on its next attack roll if that attack is made before the end of the creature's next turn.",
             "A creature that is immune to a type of damage is immune to the corresponding Spell Strike effect."
           ]
         }
@@ -513,7 +506,7 @@
       ]
     },
     {
-      "name": "Runecasting",
+      "name": "Rune Casting",
       "source": "Prismatic_King_Homebrew",
       "className": "Sigilant",
       "classSource": "Prismatic_King_Homebrew",
@@ -683,6 +676,16 @@
       ]
     },
     {
+      "name": "Ability Score Improvement",
+      "source": "Prismatic_King_Homebrew",
+      "className": "Sigilant",
+      "classSource": "Prismatic_King_Homebrew",
+      "level": 8,
+      "entries": [
+        "When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+      ]
+    },
+    {
       "name": "Explosive Runes",
       "source": "Prismatic_King_Homebrew",
       "className": "Sigilant",
@@ -714,6 +717,16 @@
       ]
     },
     {
+      "name": "Ability Score Improvement",
+      "source": "Prismatic_King_Homebrew",
+      "className": "Sigilant",
+      "classSource": "Prismatic_King_Homebrew",
+      "level": 12,
+      "entries": [
+        "When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+      ]
+    },
+    {
       "name": "Mixed Magical Arts",
       "source": "Prismatic_King_Homebrew",
       "className": "Sigilant",
@@ -735,6 +748,16 @@
       ]
     },
     {
+      "name": "Ability Score Improvement",
+      "source": "Prismatic_King_Homebrew",
+      "className": "Sigilant",
+      "classSource": "Prismatic_King_Homebrew",
+      "level": 16,
+      "entries": [
+        "When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+      ]
+    },
+    {
       "name": "Master of Glyphs",
       "source": "Prismatic_King_Homebrew",
       "className": "Sigilant",
@@ -743,6 +766,16 @@
       "entries": [
         "At 18th level, you always have {@spell glyph of warding} prepared, and it does not count against the number of spells you can prepare.",
         "When you cast glyph of warding, you can choose to make the casting time one minute instead of one hour, and you can choose to store any spell from your spellbook in the glyph by expending a number of runes equal to the spell's level. Only one of these special glyphs can be active at one time; if you cast the spell again in this way, the existing glyph vanishes."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "Prismatic_King_Homebrew",
+      "className": "Sigilant",
+      "classSource": "Prismatic_King_Homebrew",
+      "level": 19,
+      "entries": [
+        "When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
       ]
     },
     {
@@ -769,21 +802,21 @@
         "The Arcanamach are Sigilants who focus on a specific style of magecraft, derived from a book known as the Grimoire Arcanamacha. The Grimoire teaches secrets of stealth, alertness, mental endurance, and combat-casting. Arcanamach are infamous mage-slayers, capable of countering other spellcasters with their complex interplay of sword and spell. Mercenary Aracanamach are valued highly as both assassins and guardians.",
         "Notably, they tend to avoid evocation and conjuration magics, preferring to use their spells to strengthen themselves and weaken their enemies.",
         {
-          "type": "referenceSubclassFeature",
-          "subclassFeature": "Arcanamach Spells|Sigilant|Prismatic_King_Homebrew|Arcanamach|Prismatic_King_Homebrew|3"
-        },
+		"type": "refSubclassFeature",
+		"subclassFeature": "Arcanamach Spells|Sigilant|Prismatic_King_Homebrew|Arcanamach|Prismatic_King_Homebrew|3"
+	},
         {
-          "type": "referenceSubclassFeature",
-          "subclassFeature": "Dispelling Strike|Sigilant|Prismatic_King_Homebrew|Arcanamach|Prismatic_King_Homebrew|3"
-        },
+		"type": "refSubclassFeature",
+		"subclassFeature": "Dispelling Strike|Sigilant|Prismatic_King_Homebrew|Arcanamach|Prismatic_King_Homebrew|3"
+	},
         {
-          "type": "referenceSubclassFeature",
-          "subclassFeature": "Bonus Cantrips|Sigilant|Prismatic_King_Homebrew|Arcanamach|Prismatic_King_Homebrew|3"
-        }
+		"type": "refSubclassFeature",
+		"subclassFeature": "Bonus Cantrips|Sigilant|Prismatic_King_Homebrew|Arcanamach|Prismatic_King_Homebrew|3"
+	}
       ]
     },
     {
-      "name": "Aranamach Spells",
+      "name": "Arcanamach Spells",
       "source": "Prismatic_King_Homebrew",
       "className": "Sigilant",
       "classSource": "Prismatic_King_Homebrew",
@@ -890,15 +923,15 @@
         "The Factotum are dabblers, professional explorers who plunder a wide variety of fields. They advocate reading through tomes of arcane magic to gain an understanding of spells, offering prayers to a variety of deities to earn their blessings, and observing warrior stances and exercises to understand the art of fighting. Factotum are legendary for the number of holy symbols, lucky trinkets, and magical items they collect.",
         "While a Factotum learns many paths, it masters none of them. The other Orders consider the Factotum unserious, but this could not be further from the truth - Factotum simply believe that all knowledge is equally precious.",
         {
-          "type": "referenceSubclassFeature",
+          "type": "refSubclassFeature",
           "subclassFeature": "Factotum Spells|Sigilant|Prismatic_King_Homebrew|Factotum|Prismatic_King_Homebrew|3"
         },
         {
-          "type": "referenceSubclassFeature",
+          "type": "refSubclassFeature",
           "subclassFeature": "Cunning Strike|Sigilant|Prismatic_King_Homebrew|Factotum|Prismatic_King_Homebrew|3"
         },
         {
-          "type": "referenceSubclassFeature",
+          "type": "refSubclassFeature",
           "subclassFeature": "Bonus Proficiencies|Sigilant|Prismatic_King_Homebrew|Factotum|Prismatic_King_Homebrew|3"
         }
       ]
@@ -959,7 +992,7 @@
       "subclassShortName": "Factotum",
       "level": 3,
       "entries": [
-        "When you have advantage on an attack roll and hit, you can emulate the sneak attack of a rogue, dealing an additional 1d6 damage for every two Sigilant levels, rounded up."
+        "When you have advantage on an attack roll and hit, you can emulate the sneak attack of a rogue, dealing an additional {@dice 1d6} damage for every two Sigilant levels, rounded up."
       ]
     },
     {
@@ -1011,15 +1044,15 @@
         "Shadowdancers are Sigilants with a bent towards shadow magic, a rare discipline connected to the Plane of Shadow. Legend holds that the first Shadowdancers were illusionist mages who studied with the secretive Shadar-kai, learning the ambush techniques of the emotionless fey.",
         "Despite the dark connotations, both heroic rogues and notorious assassins are known to dance the shadows.",
         {
-          "type": "referenceSubclassFeature",
+          "type": "refSubclassFeature",
           "subclassFeature": "Shadowdancer Spells|Sigilant|Prismatic_King_Homebrew|Shadowdancer|Prismatic_King_Homebrew|3"
         },
         {
-          "type": "referenceSubclassFeature",
-          "subclassFeature": "Shadowstrike|Sigilant|Prismatic_King_Homebrew|Shadowdancer|Prismatic_King_Homebrew|3"
+          "type": "refSubclassFeature",
+          "subclassFeature": "Shadow Strike|Sigilant|Prismatic_King_Homebrew|Shadowdancer|Prismatic_King_Homebrew|3"
         },
         {
-          "type": "referenceSubclassFeature",
+          "type": "refSubclassFeature",
           "subclassFeature": "Bonus Cantrips|Sigilant|Prismatic_King_Homebrew|Shadowdancer|Prismatic_King_Homebrew|3"
         }
       ]
@@ -1132,15 +1165,15 @@
         "Sigilants who prefer power over finesse often choose the path of the Warblade, using heavy plate to ward off blows while smashing their foes with might and magic. A few prefer light armor, using their agility to draw foes close and strike precisely with lighter blades. Warblades are by far the most visible Order of Sigilant, drawn to conflict. A single Warblade mercenary can turn the tide of a battle, a force multiplier to his allied side.",
         "Many Warblades remain stoically neutral and proudly avoid distractions such as good or evil, but some who rise in power shift toward tyranny and cruelty.",
         {
-          "type": "referenceSubclassFeature",
+          "type": "refSubclassFeature",
           "subclassFeature": "Warblade Spells|Sigilant|Prismatic_King_Homebrew|Warblade|Prismatic_King_Homebrew|3"
         },
         {
-          "type": "referenceSubclassFeature",
+          "type": "refSubclassFeature",
           "subclassFeature": "Resonance Strike|Sigilant|Prismatic_King_Homebrew|Warblade|Prismatic_King_Homebrew|3"
         },
         {
-          "type": "referenceSubclassFeature",
+          "type": "refSubclassFeature",
           "subclassFeature": "Bonus Proficiencies|Sigilant|Prismatic_King_Homebrew|Warblade|Prismatic_King_Homebrew|3"
         }
       ]
@@ -1243,5 +1276,443 @@
         "You gain temporary hit points equal to half your Sigilant level, which are lost when the Bladecasting ends."
       ]
     }
-  ]
+  ],
+	"spell": [
+		{
+			"name": "Anchoring Smite",
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sigilant",
+						"source": "Prismatic_King_Homebrew"
+					}
+				]
+			},
+			"entries": [
+				"The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with force, and the attack deals an extra {@damage 4d10} force damage to the target. Additionally, the target must make a Charisma save or be affected by an {@condition invisible} dimensional anchor that completely blocks extradimensional travel, including all forms of teleportation. This anchor lasts for one hour before dissipating, or until you stop concentrating on it.",
+				"A dimensional anchor does not interfere with the movement of creatures already in ethereal or astral form when the spell is cast, nor does it block extradimensional perception or attack forms. Also, the dimensional anchor does not prevent summoned creatures from disappearing at the end of a summoning spell, though it can block the return of the corporeal form of a demon or other creature that returns to its home plane upon death.",
+				"If the target is native to a different plane of existence than the one you’re on, the target is unable to willingly return to its home plane. Banishment spells and effects are blocked by the anchor."
+			],
+			"source": "Prismatic_King_Homebrew",
+			"components": {
+				"v": true
+			},
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Ars Abitis",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sigilant",
+						"source": "Prismatic_King_Homebrew"
+					}
+				]
+			},
+			"source": "Prismatic_King_Homebrew",
+			"components": {
+				"v": true
+			},
+			"entries": [
+				"All sigil-marked creatures within range must make a Strength saving throw or be pushed away from you 10 feet."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"At higher levels: When you cast this spell using a spell slot of 2nd level or higher, the push effect increases by 5 feet for each slot above 1st."
+					]
+				}
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"areaTags": [
+				"MT"
+			],
+			"miscTags": [
+				"FMV"
+			]
+		},
+		{
+			"name": "Ars Explosis",
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sigilant",
+						"source": "Prismatic_King_Homebrew"
+					}
+				]
+			},
+			"source": "Prismatic_King_Homebrew",
+			"components": {
+				"v": true
+			},
+			"areaTags": [
+				"MT"
+			],
+			"entries": [
+				"Remove a sigil from an enemy within 30 feet. Each creature within 10’ of the target must make a Dexterity saving throw. It takes {@damage 3d8} damage in the type of the sigil on a failure, or half damage on a success."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"At higher levels: When you cast this spell using a spell slot of 3rd level or higher, you can choose an additional target for each slot above 2nd. A creature takes damage from this spell only once per casting."
+					]
+				}
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Ars Infuris",
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sigilant",
+						"source": "Prismatic_King_Homebrew"
+					}
+				]
+			},
+			"source": "Prismatic_King_Homebrew",
+			"components": {
+				"v": true
+			},
+			"entries": [
+				"A sigil-marked creature within range must make a Charisma saving throw. If it fails, every creature within 30 feet of that creature can choose to use its reaction and make one weapon attack against it."
+			]
+		},
+		{
+			"name": "Ars Iteritas",
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sigilant",
+						"source": "Prismatic_King_Homebrew"
+					}
+				]
+			},
+			"source": "Prismatic_King_Homebrew",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entries": [
+				"Place a sigil on any number of creatures of your choice within range."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"At higher levels: When you cast this spell using a spell slot of 4th or 5th level, the spell range increases by 15 feet for each slot above 3rd."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ars Rejuvis",
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sigilant",
+						"source": "Prismatic_King_Homebrew"
+					}
+				]
+			},
+			"source": "Prismatic_King_Homebrew",
+			"components": {
+				"v": true
+			},
+			"entries": [
+				"Your enemies’ life force restores your allies’ health. Until the end of your next turn, when an ally makes a successful melee weapon attack against a sigil-marked enemy within range, they regain hit points equal to your spellcasting modifier (minimum 1). This does not burst the sigil."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"At higher levels: When you cast this spell using a spell slot of 3rd level or higher, the spell heals {@damage 1d6} additional damage for each slot above 2nd."
+					]
+				}
+			],
+			"miscTags": [
+				"HL"
+			]
+		},
+		{
+			"name": "Ars Ultima",
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sigilant",
+						"source": "Prismatic_King_Homebrew"
+					}
+				]
+			},
+			"source": "Prismatic_King_Homebrew",
+			"components": {
+				"v": true,
+				"m": "any weapon"
+			},
+			"entries": [
+				"Remove sigils from all enemies within 30 feet of you. Each creature must make a Charisma save or suffer {@damage 8d10} damage of your sigil's damage type, or half as much on a successful save."
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"areaTags": [
+				"MT"
+			]
+		},
+		{
+			"name": "Elemental Edge",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sigilant",
+						"source": "Prismatic_King_Homebrew"
+					}
+				]
+			},
+			"source": "Prismatic_King_Homebrew",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "any non magical weapon"
+			},
+			"entries": [
+				"You touch a nonmagical weapon and choose one of the following damage types: acid, cold, fire, lightning, or thunder. For the duration, the weapon deals an additional {@damage 1d4} damage of the chosen damage type."
+			]
+		},
+		{
+			"name": "Stalking Blade",
+			"level": 0,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sigilant",
+						"source": "Prismatic_King_Homebrew"
+					}
+				]
+			},
+			"source": "Prismatic_King_Homebrew",
+			"components": {
+				"v": true,
+				"m": "any weapon you are proficient with"
+			},
+			"entries": [
+				"As part of the action used to cast this spell, you must make a melee attack with a weapon against a hostile creature within that weapon's reach. Otherwise, the spell fails. On a hit, the target suffers the attack's normal effects, and you place an {@condition invisible}, magical tag upon that creature that lasts for one minute. If the creature teleports from a place you can see while the tag is active, you can use your reaction to siphon off some of the energy, teleporting yourself simultaneously to an unoccupied space within 5 feet of the target's new location as the target takes {@damage 2d6} force damage from magical feedback.",
+				"The spell's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra {@damage 1d8} force damage to the target, and the damage the target takes for teleporting increases to {@dice 3d6}. Both damage rolls increase by an additional die at 11th and 17th level."
+			],
+			"damageInflict": [
+				"force"
+			],
+			"miscTags": [
+				"TP"
+			]
+		}
+	]
 }
